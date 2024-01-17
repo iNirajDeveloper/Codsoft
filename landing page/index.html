@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Rubik+Burned&display=swap" rel="stylesheet"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marhey:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('./hotel.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+            background-size: cover;
+            background-attachment: fixed;
+            backdrop-filter: blur(px);
+            
+        }
+        h1{
+            font-size: 6rem;
+            margin-top: 0px;
+        }
+        h3{
+            margin-bottom: 0px;
+            font-size:2rem ;
+        }
+        .header{
+            margin-top: 100px;
+            margin-left: 130px;
+            backdrop-filter: blur(0.5px);
+            display:inline-block;
+            border-radius: 5%;
+            color: #eff7ff; 
+            font-family: 'Marhey', sans-serif;
+
+            background-image: linear-gradient(to bottom, #001f3f, #004080); 
+        }
+
+        .navbar{
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+            backdrop-filter: blur(0.5px);
+            top: 0px;
+            background-image: linear-gradient(to bottom, #092f56, #36597c); 
+
+        }
+        a{
+            color: red;
+            font-size: 20px;
+            display: inline-block;
+        }
+
+        #logo{
+            position: fixed;
+            left: 50px;
+            top: 5px;
+        }
+        .card{
+
+            background-image: url('./housekeeping.avif');
+            /* display: flex; */
+            height: 300px;
+            width: 300px;
+            position: absolute;
+            justify-content: center;
+            align-items: center;
+            border: 2px double aqua;
+            border-radius: 20%;
+            
+        }
+        p{
+            position: relative;
+            opacity: 1;
+            text-align: justify;
+            /* height: 100%; */
+            width: 100%;
+            margin: 0px;
+            /* padding: 0px; */
+            display: block;
+            /* margin-top: 15px;
+            margin-left: 15px; */
+            padding: 50px 30px 30px 30px;
+            place-items:center ;
+            height: 100vh;
+            font-size: 1.2rem;
+            color: red;
+            font-weight: 500;
+
+
+        }
+        p:hover{
+            opacity: 1;
+            backdrop-filter: blur(5px);
+            transition: ease-in-out 0.2s;
+            border-radius: 20%;
+            
+
+        }
+        .h3{
+            backdrop-filter: blur(5px);
+            display: inline;
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            display: flex;
+            gap: 200px;
+            margin-top: 80px;
+        }
+        .card1{
+            background-image: url('./parking.webp');
+            
+            right: 200px; 
+        }
+        .card2{
+            background-image: url("./room2.jpg");
+            left: 600px;
+        }
+
+    </style>
+</head>
+<body>
+    <section class="navbar">
+        <a href="#"><img id="logo" src="./beach1.png" alt="beach" height="40px"></a>
+        <a href="#">Home</a>
+        <a href="#">Rooms</a>
+        <a href="#">Restrorant</a>
+        <a href="#">Location</a>
+        <a href="#">About</a>
+
+    </section>
+    <div class="header">
+        <h3>Welcome to</h3>
+        <h1>Hotel Playa!</h1>
+    </div>
+    <br>
+    
+    <div class="container">
+        <div class="card">
+            <h3 class="h3">Housekeping</h3>
+            <p> Our hotel provide the clealiness and hygine .We have getted AAA+ rating  cleaning Award. We knoe the importance of clealiness </p>
+    
+        </div>
+
+
+        <div class="card  card1">
+            <h3 class="h3">Parking</h3>
+            <p> 1.Secure Parking 2.Valet Parking 3.On-Site Parking .We provide all this features in our parking area .fill free to book us.    </p>
+    
+        </div>
+
+        <div class="card  card2">
+            <h3 class="h3">Room</h3>
+            <p> 1.Bedding 2.Bathroom 3.Furniture 4.Entertainment 5.Climate Control 6.Wi-Fi: 7.Room Service 8.Safety Features 9.Views 10.Work space</p>
+    
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+</body>
+</html>
